@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-empty",
+  "version": "1.0.0",
+  "description": "Tailwind plugin to generate variants for empty elements.",
+  "main": "index.js",
+  "repository": "bakerkretzmar/tailwindcss-empty",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwind-css",
+    "tailwindcss-plugin",
+    "css",
+    "empty"
+  ],
+  "author": "Jacob Baker-Kretzmar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bakerkretzmar/tailwindcss-empty/issues"
+  },
+  "homepage": "https://github.com/bakerkretzmar/tailwindcss-empty#readme"
+}
