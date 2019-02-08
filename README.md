@@ -1,7 +1,7 @@
 tailwindcss-empty
 =================
 
-![](https://img.shields.io/npm/v/tailwindcss-empty.svg?style=flat)
+[![tailwindcss-empty](https://img.shields.io/npm/v/tailwindcss-empty.svg?style=flat)](https://www.npmjs.com/package/tailwindcss-empty)
 
 Dead simple Tailwind plugin that adds a variant for the [`:empty`](https://developer.mozilla.org/en-US/docs/Web/CSS/:empty) CSS pseudo-class.
 
