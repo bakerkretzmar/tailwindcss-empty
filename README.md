@@ -26,7 +26,7 @@ In your `tailwind.js`:
   },
 
   plugins: [
-    require('tailwindcss-empty')(),
+    require('tailwindcss-empty'),
     // ...
   ]
 ```
