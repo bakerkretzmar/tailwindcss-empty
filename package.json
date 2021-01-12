@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/bakerkretzmar/tailwindcss-empty/issues"
   },
-  "homepage": "https://github.com/bakerkretzmar/tailwindcss-empty#readme"
+  "homepage": "https://github.com/bakerkretzmar/tailwindcss-empty#readme",
+  "peerDependencies": {
+    "tailwindcss": "^1.0.0"
+  }
 }

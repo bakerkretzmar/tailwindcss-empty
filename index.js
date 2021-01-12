@@ -1,9 +1,9 @@
-module.exports = function () {
-    return function ({ addVariant }) {
-        addVariant('empty', ({ modifySelectors, separator }) => {
-            modifySelectors(({ className }) => {
-                return `.empty${separator}${className}:empty`
-            })
-        })
-    }
-}
+const plugin = require("tailwindcss/plugin");
+
+module.exports = plugin(function ({ addVariant, e }) {
+  addVariant("empty", ({ modifySelectors, separator }) => {
+    modifySelectors(({ className }) => {
+      return `.${e(`empty${separator}${className}`)}:empty`;
+    });
+  });
+});
